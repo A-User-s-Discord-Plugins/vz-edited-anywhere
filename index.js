@@ -1,4 +1,3 @@
-//thing{last word} thingwords
 const { Plugin } = require('powercord/entities')
 const unicode = ' ‫'
 
