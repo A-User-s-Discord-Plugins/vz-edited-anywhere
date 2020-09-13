@@ -6,7 +6,7 @@ module.exports = class edited extends Plugin {
   startPlugin () {
     powercord.api.commands.registerCommand({
       command: 'edited',
-      description: 'Replaces "edited" with the actual edited text that shows up on edited messages. (Note: you must edit out the zero width character automatically appended to the end of the message for it to actually show anything)',
+      description: 'Replaces "edited" with the actual edited text that shows up on edited messages.',
       usage: '{c} <before edited> edited <after edited>', 
       executor: (args) => ({
         send: true, 
