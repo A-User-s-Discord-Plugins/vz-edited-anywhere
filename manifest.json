@@ -1,0 +1,7 @@
+{
+    "name": "You can never trust a message that's been (edited).",
+    "version": "1.0.0",
+    "description": "Replaces \"edited\" with the actual edited text that shows up on edited messages. (Note: you must edit out the zero width character automatically appended to the end of the message for it to actually show anything)",
+    "author": "Swishilicous",
+    "license": "Unlicensed"
+}
