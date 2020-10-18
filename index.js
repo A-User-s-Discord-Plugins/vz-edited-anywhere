@@ -16,7 +16,6 @@ module.exports = class edited extends Plugin {
           channelId: channels.getChannelId() },
         type: 0
         }, e => {
-          console.log(e);
           editMessage(e.body.channel_id, e.body.id, { content: msg.replace(zws, ''),
             channelId: channels.getChannelId() });
         }
