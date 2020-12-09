@@ -3,4 +3,4 @@ Replaces \"edited\" with the actual edited text that shows up on edited messages
 
 ## Preview
 
-![Preview](https://slime-rancher.is-inside.me/1E18uRGX.gif)
+![Preview](https://auser.owns-a-furry.club/D0c4Bb3.gif)
