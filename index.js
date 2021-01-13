@@ -3,7 +3,7 @@ const { channels, getModule } = require('@vizality/webpack');
 const unicode = ' ‫';
 const zws = '​';
 module.exports = class edited extends Plugin {
-  onStart () {
+  start () {
     const queue = getModule(x => x.enqueue, false);
     const { editMessage } = getModule('editMessage', 'sendMessage');
     vizality.api.commands.registerCommand({
@@ -24,7 +24,7 @@ module.exports = class edited extends Plugin {
     });
   }
 
-  onStop () {
+  stop () {
     vizality.api.commands.unregisterCommand('edited');
   }
 };
